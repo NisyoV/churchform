@@ -20,8 +20,8 @@ for index in range(Key_length):
 	
 #		st.session_state["songs"] =  0
 		
-#if "count" not in st.session_state: #to save the count
-#	st.session_state.count = 0 
+if "count" not in st.session_state: #to save the count
+	st.session_state.count = 0 
 
 st.title("Formulario de alabanzas")
 Nombre, cancion1 = st.columns([1, 2])
